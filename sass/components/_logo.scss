@@ -1,0 +1,17 @@
+.logo {
+    color: inherit;
+    font-family: 'raleway', sans-serif;
+    font-weight: var(--secondary_font-weight);
+    font-size: 26px;
+    line-height: 1.19;
+    margin-right: var(--main-retreat);
+}
+.logo__part {
+        color: var(--button-accent-color);
+}
+
+
+.logo--dark-theme {
+    color: var(--third_color-txt);
+    margin-bottom: 20px;
+}

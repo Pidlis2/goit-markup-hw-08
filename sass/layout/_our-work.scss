@@ -1,0 +1,36 @@
+.our-work__description-title {
+    font-weight: var(--secondary_font-weight);
+    font-size: var(--main_font-size);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.our-work__list-info {
+    display: flex;
+    margin-left: -30px;
+}
+
+.our-work__item-info {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-left: var(--secondary-retreat);
+}
+
+.our-work__svg-list {
+    display: flex;
+}
+
+.our-work__svg-wrap {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background: var(--secondary-bg-color);
+    border-radius: 4px;
+    margin-bottom: var(--secondary-retreat);
+    padding: 25px 100px;
+    &:not(:first-child){
+        margin-left: var(--secondary-retreat);
+    }
+}
