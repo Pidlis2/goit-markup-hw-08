@@ -23,9 +23,9 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <a class="logo link" href="./index.html"
+        <a class="logo logo--heder-position link" href="./index.html"
           ><span class="logo__part">Web</span>Studio</a
         >
 
@@ -66,12 +66,16 @@
             >
           </li>
         </ul>
+         <svg class="mobile-burger" data-menu-open width="40" height="40">
+        <use href="./images/sprite.svg#icon-menu_mobile"></use>
+      </svg>
       </div>
+
     </header>
 
     <main>
-      <!--hero-->
-
+      
+<!-- 
       <section class="hero">
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
@@ -82,9 +86,6 @@
         </div>
       </section>
 
-      <!--EndHero-->
-
-      <!--ourWork-->
 
       <section class="our-work">
         <div class="container">
@@ -153,9 +154,6 @@
         </div>
       </section>
 
-      <!--EndOurWork-->
-
-      <!--WhatWeDo-->
       <section class="what-we-do">
         <div class="container">
           <h2 class="what-we-do__titile accent-title">Чем мы занимаемся</h2>
@@ -199,9 +197,7 @@
           </ul>
         </div>
       </section>
-      <!--endWhatWeDO-->
 
-      <!--ourTeam-->
 
       <section class="our-team">
         <div class="container">
@@ -528,7 +524,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -618,5 +614,7 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+
   </body>
 </html>
