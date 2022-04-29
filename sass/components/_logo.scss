@@ -5,15 +5,17 @@
     font-size: 24px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    
+
 }
-.logo--heder-position{
-   @media screen and (max-width: 767px) {
-   padding:16px 0px}
+
+.logo--heder-position {
+    @media screen and (max-width: 767px) {
+        padding: 16px 0px
+    }
 }
 
 .logo__part {
-        color: var(--button-accent-color);
+    color: var(--button-accent-color);
 }
 
 
