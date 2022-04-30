@@ -87,7 +87,7 @@
       </section>
 
 
-    <!-- <section class="our-work">
+     <section class="our-work">
         <div class="container">
           <h2 class="visually-hidden"></h2>
 
@@ -97,53 +97,49 @@
                 <use href="./images/sprite.svg#icon-antenna-1-1"></use>
               </svg>
             </li>
+             <li class="our-work__item-info">
+              <h3 class="subcat__description-title subcat__description-title--our-works-retreat">Внимание к деталям</h3>
+
+              <p class="subcat__description subcat__description--our-works-retreat">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+
             <li class="our-work__svg-wrap">
               <svg width="70" height="70" class="our-work__svg-icon">
                 <use href="./images/sprite.svg#icon-clock-1-1"></use>
               </svg>
+            </li>
+             <li class="our-work__item-info">
+              <h3 class="subcat__description-title subcat__description-title--our-works-retreat">Пунктуальность</h3>
+
+              <p class="subcat__description subcat__description--our-works-retreat">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
             </li>
             <li class="our-work__svg-wrap">
               <svg width="70" height="70" class="our-work__svg-icon">
                 <use href="./images/sprite.svg#icon-diagram-1-1"></use>
               </svg>
             </li>
-            <li class="our-work__svg-wrap">
-              <svg width="70" height="70" class="our-work__svg-icon">
-                <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
-              </svg>
-            </li>
-          </ul>
-
-          <ul class="our-work__list-info list">
             <li class="our-work__item-info">
-              <h3 class="subcat__description-title">Внимание к деталям</h3>
+              <h3 class="subcat__description-title subcat__description-title--our-works-retreat">Планирование</h3>
 
-              <p class="subcat__description">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
-            </li>
-
-            <li class="our-work__item-info">
-              <h3 class="subcat__description-title">Пунктуальность</h3>
-
-              <p class="subcat__description">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
-            </li>
-
-            <li class="our-work__item-info">
-              <h3 class="subcat__description-title">Планирование</h3>
-
-              <p class="subcat__description">
+              <p class="subcat__description subcat__description--our-works-retreat">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
 
-            <li class="our-work__item-info">
-              <h3 class="subcat__description-title">Современные технологии</h3>
+            <li class="our-work__svg-wrap">
+              <svg width="70" height="70" class="our-work__svg-icon">
+                <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
+              </svg>
+            </li>
+             <li class="our-work__item-info">
+              <h3 class="subcat__description-title subcat__description-title--our-works-retreat">Современные технологии</h3>
 
               <p class="subcat__description">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -151,10 +147,11 @@
               </p>
             </li>
           </ul>
+
         </div>
       </section>
 
-      <section class="what-we-do">
+    <!-- <section class="what-we-do">
         <div class="container">
           <h2 class="what-we-do__titile accent-title">Чем мы занимаемся</h2>
 
@@ -196,7 +193,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section>-->
 
 
       <section class="our-team">
@@ -205,16 +202,36 @@
 
           <ul class="team-card list">
             <li class="team-card__item">
-              <img
-                width="270"
-                height="260"
-                src="./images/comand/demyanenko.jpg"
+              <picture>
+                <source
+                srcset="./images/comand/desktop/demyanenko.webp 1x, ./images/comand/desktop/demyanenko@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/demyanenko.jpg 1x, ./images/comand/desktop/demyanenko@2x.jpg 2x"
+                media="(min-width: 1200px)">
+                <source
+                srcset="./images/comand/desktop/demyanenko.webp 1x, ./images/comand/tablet/demyanenko@2x.webp 2x"
+                media="(min-width: 768px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/demyanenko.jpg 1x, ./images/comand/tablet/demyanenko@2x.jpg 2x"
+                media="(min-width: 768px)">
+                <source
+                srcset="./images/comand/desktop/demyanenko.webp 1x, ./images/comand/mobile/demyanenko@2x.webp 2x"
+                media="(max-width: 768px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/demyanenko.jpg 1x, ./images/comand/mobile/demyanenko@2x.jpg 2x"
+                media="(max-width: 768px)">
+              <img class="team-card__avatar"
+                src="./images/comand/desktop/demyanenko.jpg"
                 alt="Игорь Демьяненко"
-              />
+              /></picture>
               <div class="team-card__person-wrap">
-                <h3 class="team-card__person-name">Михаил Ермаков</h3>
+                <h3 class="team-card__person-name team-card__person-name--card-position">Игорь Демьяненко</h3>
 
-                <p class="card-description">Product Designer</p>
+                <p class="card-description card-description--card-position">Product Designer</p>
                 <ul class="social-list list">
                   <li class="social-list__item">
                     <a href="" class="social-list__link">
@@ -251,16 +268,37 @@
             </li>
 
             <li class="team-card__item">
+              <picture>
+                <source
+                srcset="./images/comand/desktop/repina.webp 1x, ./images/comand/desktop/repina@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/repina.jpg 1x, ./images/comand/desktop/repina@2x.jpg 2x"
+                media="(min-width: 1200px)">
+                <source
+                srcset="./images/comand/desktop/repina.webp 1x, ./images/comand/tablet/repina@2x.webp 2x"
+                media="(min-width: 768px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/repina.jpg 1x, ./images/comand/tablet/repina@2x.jpg 2x"
+                media="(min-width: 768px)">
+                <source
+                srcset="./images/comand/desktop/repina.webp 1x, ./images/comand/mobile/repina@2x.webp 2x"
+                media="(max-width: 768px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/repina.jpg 1x, ./images/comand/mobile/repina@2x.jpg 2x"
+                media="(max-width: 768px)">
               <img
-                width="270"
-                height="260"
-                src="./images/comand/repina.jpg"
+                class="team-card__avatar"
+                src="./images/comand/desktop/repina.jpg"
                 alt="Ольга Репина"
-              />
+              /></picture>
               <div class="team-card__person-wrap">
-                <h3 class="team-card__person-name">Ольга Репина</h3>
+                <h3 class="team-card__person-name team-card__person-name--card-position">Ольга Репина</h3>
 
-                <p class="card-description">Frontend Developer</p>
+                <p class="card-description card-description--card-position">Frontend Developer</p>
                 <ul class="social-list list">
                   <li class="social-list__item">
                     <a href="" class="social-list__link">
@@ -297,16 +335,37 @@
             </li>
 
             <li class="team-card__item">
+              <picture>
+                <source
+                srcset="./images/comand/desktop/tarasov.webp 1x, ./images/comand/desktop/tarasov@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/tarasov.jpg 1x, ./images/comand/desktop/tarasov@2x.jpg 2x"
+                media="(min-width: 1200px)">
+                <source
+                srcset="./images/comand/desktop/tarasov.webp 1x, ./images/comand/tablet/tarasov@2x.webp 2x"
+                media="(min-width: 768px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/tarasov.jpg 1x, ./images/comand/tablet/tarasov@2x.jpg 2x"
+                media="(min-width: 768px)">
+                <source
+                srcset="./images/comand/desktop/tarasov.webp 1x, ./images/comand/mobile/tarasov@2x.webp 2x"
+                media="(max-width: 768px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/tarasov.jpg 1x, ./images/comand/mobile/tarasov@2x.jpg 2x"
+                media="(max-width: 768px)">
               <img
-                width="270"
-                height="260"
-                src="./images/comand/tarasov.jpg"
+                class="team-card__avatar"
+                src="./images/comand/desktop/tarasov.jpg"
                 alt="Николай Тарасов"
-              />
+              /></picture>
               <div class="team-card__person-wrap">
-                <h3 class="team-card__person-name">Николай Тарасов</h3>
+                <h3 class="team-card__person-name team-card__person-name--card-position">Николай Тарасов</h3>
 
-                <p class="card-description">Marketing</p>
+                <p class="card-description card-description--card-position">Marketing</p>
 
                 <ul class="social-list list">
                   <li class="social-list__item">
@@ -344,16 +403,37 @@
             </li>
 
             <li class="team-card__item">
+              <picture>
+                <source
+                srcset="./images/comand/desktop/ermakov.webp 1x, ./images/comand/desktop/ermakov@2x.webp 2x"
+                media="(min-width: 1200px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/ermakov.jpg 1x, ./images/comand/desktop/ermakov@2x.jpg 2x"
+                media="(min-width: 1200px)">
+                <source
+                srcset="./images/comand/desktop/ermakov.webp 1x, ./images/comand/tablet/ermakov@2x.webp 2x"
+                media="(min-width: 768px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/ermakov.jpg 1x, ./images/comand/tablet/ermakov@2x.jpg 2x"
+                media="(min-width: 768px)">
+                <source
+                srcset="./images/comand/desktop/ermakov.webp 1x, ./images/comand/mobile/ermakov@2x.webp 2x"
+                media="(max-width: 768px)"
+                type="image/webp">
+                <source
+                srcset="./images/comand/desktop/ermakov.jpg 1x, ./images/comand/mobile/ermakov@2x.jpg 2x"
+                media="(max-width: 768px)">
               <img
-                width="270"
-                height="260"
-                src="./images/comand/ermakov.jpg"
+                class="team-card__avatar"
+                src="./images/comand/desktop/ermakov.jpg"
                 alt="Михаил Ермаков"
-              />
+              /></picture>
               <div class="team-card__person-wrap">
-                <h3 class="team-card__person-name">Михаил Ермаков</h3>
+                <h3 class="team-card__person-name team-card__person-name--card-position">Михаил Ермаков</h3>
 
-                <p class="card-description">UI Designer</p>
+                <p class="card-description card-description--card-position">UI Designer</p>
                 <ul class="social-list list">
                   <li class="social-list__item">
                     <a href="" class="social-list__link">
@@ -391,7 +471,8 @@
           </ul>
         </div>
       </section>
-      <section class="our-clients">
+
+      <!--<section class="our-clients">
         <div class="container">
           <h2 class="accent-title">Постоянные клиенты</h2>
           <ul class="our-clients__list list">

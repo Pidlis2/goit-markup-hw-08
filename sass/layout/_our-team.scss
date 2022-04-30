@@ -1,0 +1,27 @@
+.our-team {
+    background-color: var(--secondary-bg-color);
+}
+.team-card__avatar{
+width: 100%;
+}
+.team-card__item:not(:last-child){
+    margin-bottom: var(--secondary-retreat);
+}
+.our-team__title{
+    margin-bottom: var(--secondary-retreat);
+}
+.team-card__person-wrap{
+    width: 100%;
+    padding-top: var(--secondary-retreat);
+}
+
+.team-card__person-name{
+        font-weight: var(--third_font-weight);
+        font-size: var(--secondary_font-size);
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+.team-card__person-name--card-position{
+    margin-bottom: 10px;
+    
+}

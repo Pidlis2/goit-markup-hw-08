@@ -11,8 +11,14 @@
 .nav,
 .contact-inf {
     display: none;
+    @media  screen and (min-width: 768px) {
+        display: block;
+    }
 }
 
 .mobile-burger {
+    @media screen and (min-width: 768px){
+        display:none
+    }
     line-height: 0;
 }
