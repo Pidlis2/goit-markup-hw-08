@@ -1,155 +1,144 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
-      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/main.min.css" />
 
-    <title>WEBStudio</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+    integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/main.min.css" />
 
-  <body>
-    <header class="header">
-      <div class="container">
-        <a class="logo logo--heder-position link" href="./index.html"
-          ><span class="logo__part">Web</span>Studio</a
-        >
+  <title>WEBStudio</title>
+</head>
 
-        <nav class="nav">
-          <ul class="nav__list list">
-            <li class="nav__item">
-              <a class="nav__link link nav__active" href="./index.html"
-                >Студия</a
-              >
-            </li>
-            <li class="nav__item">
-              <a class="nav__link link" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+<body>
+  <header class="header">
+    <div class="container">
+      <a class="logo logo--heder-position link" href="./index.html"><span class="logo__part">Web</span>Studio</a>
 
-        <ul class="contact-inf list">
-          <li class="contact-inf__item">
-            <a
-              class="contact-inf__link contact-inf__link--email-retreat link"
-              href="mailto:info@devstudio.com"
-            >
-              <svg class="contact-inf__icon" width="16" height="12">
-                <use href="./images/sprite.svg#icon-envelope-hover-1"></use>
-              </svg>
-              info@devstudio.com</a
-            >
+      <nav class="nav">
+        <ul class="nav__list list">
+          <li class="nav__item">
+            <a class="nav__link link nav__active" href="./index.html">Студия</a>
           </li>
-          <li class="contact-inf__item">
-            <a class="contact-inf__link link" href="tel:+380961111111">
-              <svg class="contact-inf__icon" width="10" height="16">
-                <use href="./images/sprite.svg#icon-smartphone-1"></use>
-              </svg>
-              +380961111111</a
-            >
+          <li class="nav__item">
+            <a class="nav__link link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="">Контакты</a>
           </li>
         </ul>
-         <svg class="mobile-burger" data-menu-open width="40" height="40">
+      </nav>
+
+      <ul class="contact-inf list">
+        <li class="contact-inf__item">
+          <a class="contact-inf__link contact-inf__link--email-retreat link" href="mailto:info@devstudio.com">
+            <svg class="contact-inf__icon" width="16" height="12">
+              <use href="./images/sprite.svg#icon-envelope-hover-1"></use>
+            </svg>
+            info@devstudio.com</a>
+        </li>
+        <li class="contact-inf__item">
+          <a class="contact-inf__link link" href="tel:+380961111111">
+            <svg class="contact-inf__icon" width="10" height="16">
+              <use href="./images/sprite.svg#icon-smartphone-1"></use>
+            </svg>
+            +380961111111</a>
+        </li>
+      </ul>
+      <svg class="mobile-burger" data-menu-open width="40" height="40">
         <use href="./images/sprite.svg#icon-menu_mobile"></use>
       </svg>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+
+        <button class="accent-button" data-modal-open type="button">
+          Заказать услугу
+        </button>
       </div>
+    </section>
 
-    </header>
+    <section class="our-work">
+      <div class="container">
+        <h2 class="visually-hidden"></h2>
 
-    <main>
-      
+        <ul class="our-work__svg-list list">
+          <li class="our-work__svg-wrap">
+            <svg width="70" height="70" class="our-work__svg-icon">
+              <use href="./images/sprite.svg#icon-antenna-1-1"></use>
+            </svg>
+          </li>
+          <li class="our-work__item-info">
+            <h3 class="subcat__description-title subcat__description-title--our-works-retreat">
+              Внимание к деталям
+            </h3>
 
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+            <p class="subcat__description subcat__description--our-works-retreat">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
 
-          <button class="accent-button" data-modal-open type="button">
-            Заказать услугу
-          </button>
-        </div>
-      </section>
+          <li class="our-work__svg-wrap">
+            <svg width="70" height="70" class="our-work__svg-icon">
+              <use href="./images/sprite.svg#icon-clock-1-1"></use>
+            </svg>
+          </li>
+          <li class="our-work__item-info">
+            <h3 class="subcat__description-title subcat__description-title--our-works-retreat">
+              Пунктуальность
+            </h3>
 
+            <p class="subcat__description subcat__description--our-works-retreat">
+              Задача организации, в особенности же рамки и место обучения
+              кадров влечет за собой.
+            </p>
+          </li>
+          <li class="our-work__svg-wrap">
+            <svg width="70" height="70" class="our-work__svg-icon">
+              <use href="./images/sprite.svg#icon-diagram-1-1"></use>
+            </svg>
+          </li>
+          <li class="our-work__item-info">
+            <h3 class="subcat__description-title subcat__description-title--our-works-retreat">
+              Планирование
+            </h3>
 
-     <section class="our-work">
-        <div class="container">
-          <h2 class="visually-hidden"></h2>
+            <p class="subcat__description subcat__description--our-works-retreat">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
 
-          <ul class="our-work__svg-list list">
-            <li class="our-work__svg-wrap">
-              <svg width="70" height="70" class="our-work__svg-icon">
-                <use href="./images/sprite.svg#icon-antenna-1-1"></use>
-              </svg>
-            </li>
-             <li class="our-work__item-info">
-              <h3 class="subcat__description-title subcat__description-title--our-works-retreat">Внимание к деталям</h3>
+          <li class="our-work__svg-wrap">
+            <svg width="70" height="70" class="our-work__svg-icon">
+              <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
+            </svg>
+          </li>
+          <li class="our-work__item-info">
+            <h3 class="subcat__description-title subcat__description-title--our-works-retreat">
+              Современные технологии
+            </h3>
 
-              <p class="subcat__description subcat__description--our-works-retreat">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
-            </li>
-
-            <li class="our-work__svg-wrap">
-              <svg width="70" height="70" class="our-work__svg-icon">
-                <use href="./images/sprite.svg#icon-clock-1-1"></use>
-              </svg>
-            </li>
-             <li class="our-work__item-info">
-              <h3 class="subcat__description-title subcat__description-title--our-works-retreat">Пунктуальность</h3>
-
-              <p class="subcat__description subcat__description--our-works-retreat">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
-            </li>
-            <li class="our-work__svg-wrap">
-              <svg width="70" height="70" class="our-work__svg-icon">
-                <use href="./images/sprite.svg#icon-diagram-1-1"></use>
-              </svg>
-            </li>
-            <li class="our-work__item-info">
-              <h3 class="subcat__description-title subcat__description-title--our-works-retreat">Планирование</h3>
-
-              <p class="subcat__description subcat__description--our-works-retreat">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
-            </li>
-
-            <li class="our-work__svg-wrap">
-              <svg width="70" height="70" class="our-work__svg-icon">
-                <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
-              </svg>
-            </li>
-             <li class="our-work__item-info">
-              <h3 class="subcat__description-title subcat__description-title--our-works-retreat">Современные технологии</h3>
-
-              <p class="subcat__description">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
-            </li>
-          </ul>
-
-        </div>
-      </section>
+            <p class="subcat__description">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <!-- <section class="what-we-do">
         <div class="container">
@@ -195,335 +184,343 @@
         </div>
       </section>-->
 
+    <section class="our-team">
+      <div class="container">
+        <h2 class="our-team__title accent-title">Наша команда</h2>
 
-      <section class="our-team">
-        <div class="container">
-          <h2 class="our-team__title accent-title">Наша команда</h2>
+        <ul class="team-card list">
+          <li class="team-card__item">
+            <picture>
+              <source srcset="
+                    ./images/comand/desktop/demyanenko.webp    1x,
+                    ./images/comand/desktop/demyanenko@2x.webp 2x
+                  " media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/desktop/demyanenko.jpg    1x,
+                    ./images/comand/desktop/demyanenko@2x.jpg 2x
+                  " media="(min-width: 1200px)" />
+              <source srcset="
+                    ./images/comand/tablet/demyanenko.webp   1x,
+                    ./images/comand/tablet/demyanenko@2x.webp 2x
+                  " media="(min-width: 768px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/tablet/demyanenko.jpg   1x,
+                    ./images/comand/tablet/demyanenko@2x.jpg 2x
+                  " media="(min-width: 768px)" />
+              <source srcset="
+                    ./images/comand/mobile/demyanenko.webp   1x,
+                    ./images/comand/mobile/demyanenko@2x.webp 2x
+                  " media="(max-width: 768px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/mobile/demyanenko.jpg   1x,
+                    ./images/comand/mobile/demyanenko@2x.jpg 2x
+                  " media="(max-width: 768px)" />
+              <img class="team-card__avatar" src="./images/comand/desktop/demyanenko.jpg" alt="Игорь Демьяненко" />
+            </picture>
+            <div class="team-card__person-wrap">
+              <h3 class="team-card__person-name team-card__person-name--card-position">
+                Игорь Демьяненко
+              </h3>
 
-          <ul class="team-card list">
-            <li class="team-card__item">
-              <picture>
-                <source
-                srcset="./images/comand/desktop/demyanenko.webp 1x, ./images/comand/desktop/demyanenko@2x.webp 2x"
-                media="(min-width: 1200px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/demyanenko.jpg 1x, ./images/comand/desktop/demyanenko@2x.jpg 2x"
-                media="(min-width: 1200px)">
-                <source
-                srcset="./images/comand/desktop/demyanenko.webp 1x, ./images/comand/tablet/demyanenko@2x.webp 2x"
-                media="(min-width: 768px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/demyanenko.jpg 1x, ./images/comand/tablet/demyanenko@2x.jpg 2x"
-                media="(min-width: 768px)">
-                <source
-                srcset="./images/comand/desktop/demyanenko.webp 1x, ./images/comand/mobile/demyanenko@2x.webp 2x"
-                media="(max-width: 768px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/demyanenko.jpg 1x, ./images/comand/mobile/demyanenko@2x.jpg 2x"
-                media="(max-width: 768px)">
-              <img class="team-card__avatar"
-                src="./images/comand/desktop/demyanenko.jpg"
-                alt="Игорь Демьяненко"
-              /></picture>
-              <div class="team-card__person-wrap">
-                <h3 class="team-card__person-name team-card__person-name--card-position">Игорь Демьяненко</h3>
+              <p class="card-description card-description--card-position">
+                Product Designer
+              </p>
+              <ul class="social-list list">
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-instagram-2-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-twitter-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-facebook-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-linkedin-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
 
-                <p class="card-description card-description--card-position">Product Designer</p>
-                <ul class="social-list list">
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use
-                          href="./images/sprite.svg#icon-instagram-2-1"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-twitter-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-facebook-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-linkedin-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
+          <li class="team-card__item">
+            <picture>
+              <source srcset="
+                    ./images/comand/desktop/repina.webp    1x,
+                    ./images/comand/desktop/repina@2x.webp 2x
+                  " media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/desktop/repina.jpg    1x,
+                    ./images/comand/desktop/repina@2x.jpg 2x
+                  " media="(min-width: 1200px)" />
+              <source srcset="
+                    ./images/comand/tablet/repina.webp   1x,
+                    ./images/comand/tablet/repina@2x.webp 2x
+                  " media="(min-width: 768px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/tablet/repina.jpg   1x,
+                    ./images/comand/tablet/repina@2x.jpg 2x
+                  " media="(min-width: 768px)" />
+              <source srcset="
+                    ./images/comand/mobile/repina.webp   1x,
+                    ./images/comand/mobile/repina@2x.webp 2x
+                  " media="(max-width: 768px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/mobile/repina.jpg   1x,
+                    ./images/comand/mobile/repina@2x.jpg 2x
+                  " media="(max-width: 768px)" />
+              <img class="team-card__avatar" src="./images/comand/desktop/repina.jpg" alt="Ольга Репина" />
+            </picture>
+            <div class="team-card__person-wrap">
+              <h3 class="team-card__person-name team-card__person-name--card-position">
+                Ольга Репина
+              </h3>
 
-            <li class="team-card__item">
-              <picture>
-                <source
-                srcset="./images/comand/desktop/repina.webp 1x, ./images/comand/desktop/repina@2x.webp 2x"
-                media="(min-width: 1200px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/repina.jpg 1x, ./images/comand/desktop/repina@2x.jpg 2x"
-                media="(min-width: 1200px)">
-                <source
-                srcset="./images/comand/desktop/repina.webp 1x, ./images/comand/tablet/repina@2x.webp 2x"
-                media="(min-width: 768px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/repina.jpg 1x, ./images/comand/tablet/repina@2x.jpg 2x"
-                media="(min-width: 768px)">
-                <source
-                srcset="./images/comand/desktop/repina.webp 1x, ./images/comand/mobile/repina@2x.webp 2x"
-                media="(max-width: 768px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/repina.jpg 1x, ./images/comand/mobile/repina@2x.jpg 2x"
-                media="(max-width: 768px)">
-              <img
-                class="team-card__avatar"
-                src="./images/comand/desktop/repina.jpg"
-                alt="Ольга Репина"
-              /></picture>
-              <div class="team-card__person-wrap">
-                <h3 class="team-card__person-name team-card__person-name--card-position">Ольга Репина</h3>
+              <p class="card-description card-description--card-position">
+                Frontend Developer
+              </p>
+              <ul class="social-list list">
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-instagram-2-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-twitter-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-facebook-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-linkedin-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
 
-                <p class="card-description card-description--card-position">Frontend Developer</p>
-                <ul class="social-list list">
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use
-                          href="./images/sprite.svg#icon-instagram-2-1"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-twitter-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-facebook-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-linkedin-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
+          <li class="team-card__item">
+            <picture>
+              <source srcset="
+                    ./images/comand/desktop/tarasov.webp    1x,
+                    ./images/comand/desktop/tarasov@2x.webp 2x
+                  " media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/desktop/tarasov.jpg    1x,
+                    ./images/comand/desktop/tarasov@2x.jpg 2x
+                  " media="(min-width: 1200px)" />
+              <source srcset="
+                    ./images/comand/tablet/tarasov.webp   1x,
+                    ./images/comand/tablet/tarasov@2x.webp 2x
+                  " media="(min-width: 768px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/tablet/tarasov.jpg   1x,
+                    ./images/comand/tablet/tarasov@2x.jpg 2x
+                  " media="(min-width: 768px)" />
+              <source srcset="
+                    ./images/comand/mobile/tarasov.webp   1x,
+                    ./images/comand/mobile/tarasov@2x.webp 2x
+                  " media="(max-width: 768px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/mobile/tarasov.jpg   1x,
+                    ./images/comand/mobile/tarasov@2x.jpg 2x
+                  " media="(max-width: 768px)" />
+              <img class="team-card__avatar" src="./images/comand/desktop/tarasov.jpg" alt="Николай Тарасов" />
+            </picture>
+            <div class="team-card__person-wrap">
+              <h3 class="team-card__person-name team-card__person-name--card-position">
+                Николай Тарасов
+              </h3>
 
-            <li class="team-card__item">
-              <picture>
-                <source
-                srcset="./images/comand/desktop/tarasov.webp 1x, ./images/comand/desktop/tarasov@2x.webp 2x"
-                media="(min-width: 1200px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/tarasov.jpg 1x, ./images/comand/desktop/tarasov@2x.jpg 2x"
-                media="(min-width: 1200px)">
-                <source
-                srcset="./images/comand/desktop/tarasov.webp 1x, ./images/comand/tablet/tarasov@2x.webp 2x"
-                media="(min-width: 768px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/tarasov.jpg 1x, ./images/comand/tablet/tarasov@2x.jpg 2x"
-                media="(min-width: 768px)">
-                <source
-                srcset="./images/comand/desktop/tarasov.webp 1x, ./images/comand/mobile/tarasov@2x.webp 2x"
-                media="(max-width: 768px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/tarasov.jpg 1x, ./images/comand/mobile/tarasov@2x.jpg 2x"
-                media="(max-width: 768px)">
-              <img
-                class="team-card__avatar"
-                src="./images/comand/desktop/tarasov.jpg"
-                alt="Николай Тарасов"
-              /></picture>
-              <div class="team-card__person-wrap">
-                <h3 class="team-card__person-name team-card__person-name--card-position">Николай Тарасов</h3>
+              <p class="card-description card-description--card-position">
+                Marketing
+              </p>
 
-                <p class="card-description card-description--card-position">Marketing</p>
+              <ul class="social-list list">
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-instagram-2-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-twitter-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-facebook-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-linkedin-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
 
-                <ul class="social-list list">
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use
-                          href="./images/sprite.svg#icon-instagram-2-1"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-twitter-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-facebook-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-linkedin-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
+          <li class="team-card__item">
+            <picture>
+              <source srcset="
+                    ./images/comand/desktop/ermakov.webp    1x,
+                    ./images/comand/desktop/ermakov@2x.webp 2x
+                  " media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/desktop/ermakov.jpg    1x,
+                    ./images/comand/desktop/ermakov@2x.jpg 2x
+                  " media="(min-width: 1200px)" />
+              <source srcset="
+                    ./images/comand/tablet/ermakov.webp   1x,
+                    ./images/comand/tablet/ermakov@2x.webp 2x
+                  " media="(min-width: 768px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/tablet/ermakov.jpg   1x,
+                    ./images/comand/tablet/ermakov@2x.jpg 2x
+                  " media="(min-width: 768px)" />
+              <source srcset="
+                    ./images/comand/mobile/ermakov.webp   1x,
+                    ./images/comand/mobile/ermakov@2x.webp 2x
+                  " media="(max-width: 768px)" type="image/webp" />
+              <source srcset="
+                    ./images/comand/mobile/ermakov.jpg   1x,
+                    ./images/comand/mobile/ermakov@2x.jpg 2x
+                  " media="(max-width: 768px)" />
+              <img class="team-card__avatar" src="./images/comand/desktop/ermakov.jpg" alt="Михаил Ермаков" />
+            </picture>
+            <div class="team-card__person-wrap">
+              <h3 class="team-card__person-name team-card__person-name--card-position">
+                Михаил Ермаков
+              </h3>
 
-            <li class="team-card__item">
-              <picture>
-                <source
-                srcset="./images/comand/desktop/ermakov.webp 1x, ./images/comand/desktop/ermakov@2x.webp 2x"
-                media="(min-width: 1200px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/ermakov.jpg 1x, ./images/comand/desktop/ermakov@2x.jpg 2x"
-                media="(min-width: 1200px)">
-                <source
-                srcset="./images/comand/desktop/ermakov.webp 1x, ./images/comand/tablet/ermakov@2x.webp 2x"
-                media="(min-width: 768px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/ermakov.jpg 1x, ./images/comand/tablet/ermakov@2x.jpg 2x"
-                media="(min-width: 768px)">
-                <source
-                srcset="./images/comand/desktop/ermakov.webp 1x, ./images/comand/mobile/ermakov@2x.webp 2x"
-                media="(max-width: 768px)"
-                type="image/webp">
-                <source
-                srcset="./images/comand/desktop/ermakov.jpg 1x, ./images/comand/mobile/ermakov@2x.jpg 2x"
-                media="(max-width: 768px)">
-              <img
-                class="team-card__avatar"
-                src="./images/comand/desktop/ermakov.jpg"
-                alt="Михаил Ермаков"
-              /></picture>
-              <div class="team-card__person-wrap">
-                <h3 class="team-card__person-name team-card__person-name--card-position">Михаил Ермаков</h3>
+              <p class="card-description card-description--card-position">
+                UI Designer
+              </p>
+              <ul class="social-list list">
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-instagram-2-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-twitter-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-facebook-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" class="social-list__link">
+                    <svg width="20" height="20" class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-linkedin-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-                <p class="card-description card-description--card-position">UI Designer</p>
-                <ul class="social-list list">
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use
-                          href="./images/sprite.svg#icon-instagram-2-1"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-twitter-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-facebook-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="" class="social-list__link">
-                      <svg width="20" height="20" class="social-list__icon">
-                        <use href="./images/sprite.svg#icon-linkedin-1-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <section class="our-clients">
+      <div class="container">
+        <h2 class="accent-title">Постоянные клиенты</h2>
+        <ul class="our-clients__list list">
+          <li class="our-clients__item">
+            <a class="our-clients__link" href="">
+              <svg width="106" height="60" class="our-clients__icon">
+                <use href="./images/sprite.svg#icon-Logo-6"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="our-clients__item">
+            <a class="our-clients__link" href="">
+              <svg width="106" height="60" class="our-clients__icon">
+                <use href="./images/sprite.svg#icon-Logo-1-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="our-clients__item">
+            <a class="our-clients__link" href="">
+              <svg width="106" height="60" class="our-clients__icon">
+                <use href="./images/sprite.svg#icon-Logo-2-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="our-clients__item">
+            <a class="our-clients__link" href="">
+              <svg width="106" height="60" class="our-clients__icon">
+                <use href="./images/sprite.svg#icon-Logo-3-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="our-clients__item">
+            <a class="our-clients__link" href="">
+              <svg width="106" height="60" class="our-clients__icon">
+                <use href="./images/sprite.svg#icon-Logo-4-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="our-clients__item">
+            <a class="our-clients__link" href="">
+              <svg width="106" height="60" class="our-clients__icon">
+                <use href="./images/sprite.svg#icon-Logo-5-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
-      <!--<section class="our-clients">
-        <div class="container">
-          <h2 class="accent-title">Постоянные клиенты</h2>
-          <ul class="our-clients__list list">
-            <li class="our-clients__item">
-              <a class="our-clients__link" href="">
-                <svg width="106" height="60" class="our-clients__icon">
-                  <use href="./images/sprite.svg#icon-Logo-6"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="our-clients__item">
-              <a class="our-clients__link" href="">
-                <svg width="106" height="60" class="our-clients__icon">
-                  <use href="./images/sprite.svg#icon-Logo-1-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="our-clients__item">
-              <a class="our-clients__link" href="">
-                <svg width="106" height="60" class="our-clients__icon">
-                  <use href="./images/sprite.svg#icon-Logo-2-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="our-clients__item">
-              <a class="our-clients__link" href="">
-                <svg width="106" height="60" class="our-clients__icon">
-                  <use href="./images/sprite.svg#icon-Logo-3-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="our-clients__item">
-              <a class="our-clients__link" href="">
-                <svg width="106" height="60" class="our-clients__icon">
-                  <use href="./images/sprite.svg#icon-Logo-4-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="our-clients__item">
-              <a class="our-clients__link" href="">
-                <svg width="106" height="60" class="our-clients__icon">
-                  <use href="./images/sprite.svg#icon-Logo-5-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer-section">
+  <!-- <footer class="footer-section">
       <div class="container">
         <div>
           <a class="logo logo--dark-theme link" href="./index.html"
@@ -694,8 +691,8 @@
         </form>
       </div>
     </div>-->
-    <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
+</body>
 
-  </body>
 </html>
