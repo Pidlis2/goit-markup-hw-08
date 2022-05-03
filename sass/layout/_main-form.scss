@@ -110,12 +110,11 @@ textarea::placeholder {
 
 .contact-form__acept-checkbox {
     display: flex;
-    
-    justify-content: center;
-
+    align-items: center;
 
     a {
         color: var(--button-accent-color);
+        font-size: 12px;
     }
 
     &::before {
