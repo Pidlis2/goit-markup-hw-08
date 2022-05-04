@@ -8,10 +8,3 @@
         align-items: center;
     }
 }
-
-.mobile-burger {
-    @media screen and (min-width: 768px){
-        display:none
-    }
-    line-height: 0;
-}

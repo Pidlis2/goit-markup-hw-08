@@ -1,3 +1,21 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(1);
+    
+
+    &.is-hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+}
+
 .modal {
     width: 100%;
     position: absolute;
@@ -96,7 +114,6 @@
 .contact-form__user-consent-wrap {
     display: flex;
     margin-bottom: var(--secondary-retreat);
-    justify-content: center;
     margin-top: var(--portolio-card-margin);
     
 }
@@ -112,15 +129,16 @@ textarea::placeholder {
 .contact-form__acept-checkbox {
     display: flex;
     align-items: center;
+    
 
-    a {
+    a { display: inline;
         color: var(--button-accent-color);
         font-size: 12px;
     }
 
     &::before {
         content: '';
-        display: block;
+        display: inline-block;
         width: 16px;
         height: 15px;
         background-repeat: no-repeat;
@@ -141,7 +159,7 @@ textarea::placeholder {
 }
 
 .contact-form__accept-description {
-    margin-left: 10px;
+    margin-left: 6px;
     font-size: 12px;
     line-height: 1.16;
     color: var(--secondary_color-txt);
