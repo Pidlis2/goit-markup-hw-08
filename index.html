@@ -56,6 +56,26 @@
         <use href="./images/sprite.svg#icon-menu_mobile"></use>
       </svg>
     </div>
+    <div class="mobile-menu" data-menu>
+      <button class="mobile-munu__close-btn" data-menu-close>
+        <svg class="mobile-menu__close-icon" width="40" height="40">
+          <use href="./images/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list--mobile-menu list">
+          <li class="nav__item--mobile-menu">
+            <a class="nav__link--mobile-menu" href="./index.html">Студия</a>
+          </li>
+          <li class="nav__item--mobile-menu">
+            <a class="nav__link--mobile-menu link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav__item--mobile-menu">
+            <a class="nav__link--mobile-menu link" href="">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -640,9 +660,8 @@
         <div class="contact-form__user-consent-wrap">
           <input id="user-acept" type="checkbox" class="checkbox-input visually-hidden" value="user-acept" required />
           <label for="user-acept" class="contact-form__acept-checkbox subcat__description">
-            <span class="contact-form__accept-description">
-              Соглашаюсь с рассылкой и принимаю&nbsp;&nbsp;</span>
-            <a href="">Условия договора</a>
+            <span class="contact-form__accept-description">Соглашаюсь с рассылкой и принимаю&nbsp;&nbsp;</span><a
+              href="">Условия договора</a>
           </label>
         </div>
         <button type="submit" class="contact-form--send-btn accent-button">
