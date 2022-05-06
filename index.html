@@ -75,30 +75,32 @@
             <a class="nav-mobile-menu__link link" href="">Контакты</a>
           </li>
         </ul>
-        <address class="mobile-adress-section">
 
-          <ul class="mobile-adress-section-list list">
-            <li class="mobile-adress-section-item ">
-              <a class="mobile-adress-section-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="mobile-adress-section-item">
-              <a class="mobile-adress-section-link link" href="tel:+380961111111">+380961111111</a>
-            </li>
-          </ul>
-        </address>
       </nav>
+      <address class="mobile-adress-section">
+
+        <ul class="mobile-adress-section__list list">
+          <li class="mobile-adress-section__item">
+            <a class="mobile-adress-section__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="mobile-adress-section__item">
+            <a class="mobile-adress-section__link mobile-adress-section-link--tel link"
+              href="tel:+380961111111">+380961111111</a>
+          </li>
+        </ul>
+      </address>
       <ul class="mobile-menu__social-list list">
         <li class="mobile-menu__social-item">
-          <a href="" class="mobile-menu__social-link mobile-menu__social-link--dec">Instagram</a>
+          <a href="" class="mobile-menu__social-link mobile-menu__social-link--dec link">Instagram</a>
         </li>
         <li class="mobile-menu__social-item">
-          <a href="" class="mobile-menu__social-link mobile-menu__social-link--dec">Twitter</a>
+          <a href="" class="mobile-menu__social-link mobile-menu__social-link--dec link">Twitter</a>
         </li>
         <li class="mobile-menu__social-item">
-          <a href="" class="mobile-menu__social-link mobile-menu__social-link--dec">Facebook</a>
+          <a href="" class="mobile-menu__social-link mobile-menu__social-link--dec link">Facebook</a>
         </li>
         <li class="mobile-menu__social-item">
-          <a href="" class="mobile-menu__social-link">LinkedIn</a>
+          <a href="" class="mobile-menu__social-link link">LinkedIn</a>
         </li>
       </ul>
 
@@ -121,59 +123,66 @@
         <h2 class="visually-hidden"></h2>
 
         <ul class="our-work__svg-list list">
-          <li class="our-work__svg-wrap">
-            <svg width="70" height="70" class="our-work__svg-icon">
-              <use href="./images/sprite.svg#icon-antenna-1-1"></use>
-            </svg>
-          </li>
-          <li class="our-work__item-info">
+
+
+          <li class="our-work__svg-item">
+            <div class="our-work__svg-wrap">
+              <svg width="70" height="70" class="our-work__svg-icon">
+                <use href="./images/sprite.svg#icon-antenna-1-1"></use>
+              </svg>
+            </div>
             <h3 class="subcat__description-title subcat__description-title--our-works-retreat">
               Внимание к деталям
             </h3>
 
-            <p class="subcat__description subcat__description--our-works-retreat">
+            <p class="subcat__description ">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
 
-          <li class="our-work__svg-wrap">
-            <svg width="70" height="70" class="our-work__svg-icon">
-              <use href="./images/sprite.svg#icon-clock-1-1"></use>
-            </svg>
-          </li>
-          <li class="our-work__item-info">
+          <li class="our-work__svg-item">
+            <div class="our-work__svg-wrap">
+              <svg width="70" height="70" class="our-work__svg-icon">
+                <use href="./images/sprite.svg#icon-clock-1-1"></use>
+              </svg>
+            </div>
             <h3 class="subcat__description-title subcat__description-title--our-works-retreat">
               Пунктуальность
             </h3>
 
-            <p class="subcat__description subcat__description--our-works-retreat">
+            <p class="subcat__description ">
               Задача организации, в особенности же рамки и место обучения
               кадров влечет за собой.
             </p>
           </li>
-          <li class="our-work__svg-wrap">
-            <svg width="70" height="70" class="our-work__svg-icon">
-              <use href="./images/sprite.svg#icon-diagram-1-1"></use>
-            </svg>
-          </li>
-          <li class="our-work__item-info">
+
+          <li class="our-work__svg-item">
+            <div class="our-work__svg-wrap">
+              <svg width="70" height="70" class="our-work__svg-icon">
+                <use href="./images/sprite.svg#icon-diagram-1-1"></use>
+              </svg>
+            </div>
             <h3 class="subcat__description-title subcat__description-title--our-works-retreat">
               Планирование
             </h3>
 
-            <p class="subcat__description subcat__description--our-works-retreat">
+            <p class="subcat__description ">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
 
-          <li class="our-work__svg-wrap">
-            <svg width="70" height="70" class="our-work__svg-icon">
-              <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
-            </svg>
-          </li>
-          <li class="our-work__item-info">
+
+
+
+
+          <li class="our-work__svg-item">
+            <div class="our-work__svg-wrap">
+              <svg width="70" height="70" class="our-work__svg-icon">
+                <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
+              </svg>
+            </div>
             <h3 class="subcat__description-title subcat__description-title--our-works-retreat">
               Современные технологии
             </h3>
@@ -184,52 +193,75 @@
             </p>
           </li>
         </ul>
+
       </div>
     </section>
 
-    <!-- <section class="what-we-do">
-        <div class="container">
-          <h2 class="what-we-do__titile accent-title">Чем мы занимаемся</h2>
+    <section class="what-we-do">
+      <div class="container">
+        <h2 class="what-we-do__titile accent-title">Чем мы занимаемся</h2>
 
-          <ul class="what-we-do__product-cat list">
-            <li class="what-we-do__product-item">
-              <img
-                width="370"
-                height="294"
-                src="./images/work/work1.jpg"
-                alt="Создание проекта"
-              />
-              <p class="what-we-do__product-description module-subtitle">
-                Десктопные приложения
-              </p>
-            </li>
+        <ul class="what-we-do__product-cat list">
+          <li class="what-we-do__product-item">
+            <picture>
+              <source srcset="
+                                ./images/work/desktop/work1-2.webp 1x,
+                                ./images/work/desktop/work1-2@2x.webp 2x
+                                  " media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="
+                                ./images/work/desktop/work1.jpg 1x,
+                                ./images/work/desktop/work1@2x.jpg 2x
+                                  " media="(min-width: 1200px)" />
 
-            <li class="what-we-do__product-item">
-              <img
-                width="370"
-                height="294"
-                src="./images/work/work2.jpg"
-                alt="Оптимизация проекта"
-              />
-              <p class="what-we-do__product-description module-subtitle">
-                Мобильные приложения
-              </p>
-            </li>
+              <img class="cards-set__picture" src="./images/work/desktop/work1.jpg" alt="Десктопные приложения" />
+            </picture>
+            <p class="what-we-do__product-description module-subtitle">
+              Десктопные приложения
+            </p>
+          </li>
 
-            <li class="what-we-do__product-item">
-              <img
-                width="370"
-                height="294"
-                src="./images/work/work3.jpg"
-                alt="Индивидуальный подход к проекту"
-              />
-              <p class="module-subtitle what-we-do__product-description">
-                Дизайнерские решения
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>-->
+          <li class="what-we-do__product-item">
+
+            <picture>
+              <source srcset="
+                                ./images/work/desktop/work2-2.webp 1x,
+                                ./images/work/desktop/work2-2@2x.webp 2x
+                                  " media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="
+                                ./images/work/desktop/work2.jpg 1x,
+                                ./images/work/desktop/work2@2x.jpg 2x
+                                  " media="(min-width: 1200px)" />
+
+              <img class="cards-set__picture" src="./images/work/desktop/work2.jpg" alt="Мобильные приложения" />
+            </picture>
+
+            <p class="what-we-do__product-description module-subtitle">
+              Мобильные приложения
+            </p>
+          </li>
+
+          <li class="what-we-do__product-item">
+
+            <picture>
+              <source srcset="
+                                ./images/work/desktop/work3-2.webp 1x,
+                                ./images/work/desktop/work1-2@2x.webp 2x
+                                  " media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="
+                                ./images/work/desktop/work3.jpg 1x,
+                                ./images/work/desktop/work3-2@2x.jpg 2x
+                                  " media="(min-width: 1200px)" />
+
+              <img class="cards-set__picture" src="./images/work/desktop/work3.jpg" alt="Дизайнерские решения" />
+            </picture>
+
+            <p class=" module-subtitle what-we-do__product-description">
+              Дизайнерские решения
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <section class="our-team">
       <div class="container">
@@ -518,7 +550,7 @@
 
     <section class="our-clients">
       <div class="container">
-        <h2 class="accent-title">Постоянные клиенты</h2>
+        <h2 class="our-clients__title accent-title">Постоянные клиенты</h2>
         <ul class="our-clients__list list">
           <li class="our-clients__item">
             <a class="our-clients__link" href="">
@@ -569,7 +601,7 @@
 
   <footer class="footer-section">
     <div class="container">
-      <div>
+      <div class="adress-section__connection-box">
         <a class="logo logo--dark-theme link" href="./index.html"><span class="logo__part">Web</span>Studio</a>
 
         <address class="adress-section">
@@ -581,7 +613,7 @@
               <a class="adress-section__connection-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li class="adress-section__connection-item">
-              <a class="adress-section__connection-link link" href="tel:+380961111111">+380961111111</a>
+              <a class="adress-section__connection-link link" href="tel:+380961111111">+38096 111 11 11</a>
             </li>
           </ul>
         </address>
@@ -620,6 +652,8 @@
           </li>
         </ul>
       </div>
+
+
       <div class="subscribe-box">
         <p class="subscribe-box__title module-subtitle footer__module-subtitle">
           Подпишитесь на рассылку

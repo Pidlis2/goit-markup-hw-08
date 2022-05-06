@@ -40,7 +40,31 @@ body {
 }
 .our-team,
 .our-work,
-.our-clients,
+.our-clients{
+    padding: var(--main-mobile-retreat) 0;
+    @media screen and (min-width: 1200px){
+        padding: var(--main-retreat) 0;
+    }
+}
 .footer-section{
     padding: var(--main-mobile-retreat) 0;
 }
+.section-portfolio {
+    padding: var(--main-mobile-retreat) 0px;
+    @media screen and (min-width: 1200px){
+    padding: var(--main-retreat) 0px;   
+    }
+}
+
+.our-clients__title,
+.our-team__title,
+.what-we-do__titile{
+
+    @media screen  and (max-width: 1199px){
+        margin-bottom: var(--secondary-retreat);
+    }
+    
+    @media screen and (min-width: 1200px) {
+            margin-bottom: var(--first-retreat);
+        }
+    }

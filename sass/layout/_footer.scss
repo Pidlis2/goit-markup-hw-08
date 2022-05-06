@@ -1,11 +1,38 @@
 .footer-section {
     background-color: var(--first-bg-color);
+
+    .container{
+        
+        @media (min-width: 768px){
+         display: flex;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1199px){
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+        @media screen and (min-width: 1200px){
+            align-items: baseline;
+        }
+
+
+    }
+.adress-section__connection-box{
+    @media screen and (min-width: 1200px){
+        text-align: left;
+    }
+  
+}
+
 }
 .adress-section__full-info {
     color: var(--third_color-txt);
     font-size: var(--main_font-size);
     line-height: 1.71;
     letter-spacing: 0.03em;
+    @media screen and (min-width: 1200px){
+        margin-bottom: 9px;
+    }
 }
 .adress-section__full-info--footer-retreat{
     margin-bottom: 8px;
@@ -23,22 +50,62 @@
 }
 
 .join-us__box{
-    margin: var(--main-mobile-retreat) 0px;
+    @media screen and (max-width: 767px){
+        margin: var(--main-mobile-retreat) 0px;
+
+    }
+    @media screen and (min-width: 1200px){
+        width: 206px;
+        height: 80px;
+        margin-left: 70px;
+            
+          .module-subtitle {
+            margin-bottom: var(--portolio-card-margin);
+            text-align: left;
+            }
+    }
+
 }
 
 .join-us__list {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+    @media screen and (min-width: 1200px){
+    justify-content: space-between;
+    }
 }
 
 .join-us__link {
     background: rgba(255, 255, 255, 0.1);
     fill: var(--third_color-txt);
-
     &:hover,
     &:focus {
         fill: var(--third_color-txt);
     }
+}
+
+.subscribe-box{
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+        margin-top: var(--main-mobile-retreat)
+    }
+    @media screen and (min-width: 1200px){
+        margin-left: auto
+    }
+}
+.subscribe-box__title {
+    @media screen and (min-width: 1200px){
+        margin-bottom: var(--portolio-card-margin);
+        text-align: left;
+    }
+    
+}
+
+.subscribe-box__subcat-box {
+    @media screen and (min-width: 1200px){
+        display: flex;
+        align-items: flex-end;
+    }
+
 }
 
 .subscribe-box__input {
@@ -53,7 +120,12 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background: transparent;
-
+    @media screen and (min-width: 1200px){
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 12px;
+        width: 358px;
+    }
 }
 
 .subscribe-box__button {

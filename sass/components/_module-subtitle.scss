@@ -8,5 +8,8 @@
 }
 
 .footer__module-subtitle{
+    @media screen and (max-width: 1199px){
     margin-bottom: var(--portolio-card-margin);
+    }
+    
 }

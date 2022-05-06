@@ -1,18 +1,50 @@
 .our-team {
     background-color: var(--secondary-bg-color);
 }
+.team-card{
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        flex-wrap: wrap;
+    }
+    @media screen and (min-width: 768px){
+        display: flex;
+        margin-left: calc(-1 * var(--secondary-retreat));
+        margin-top: calc(-1 * var(--secondary-retreat));
+    }
+}
+.team-card__item {
+    @media screen and (min-width: 768px){
+        margin-left: var(--secondary-retreat);
+        margin-top: var(--secondary-retreat);
+        flex-basis: calc(100% / 2 - 30px);
+    }
+    @media screen and (min-width: 1200px){
+        flex-basis: calc(100% / 4 - 30px);
+    }
+
+}
 .team-card__avatar{
-width: 100%;
+    @media screen and (max-width: 767px){
+    width: 100%;
+    }
 }
-.team-card__item:not(:last-child){
-    margin-bottom: var(--secondary-retreat);
-}
-.our-team__title{
-    margin-bottom: var(--secondary-retreat);
+
+.team-card__item:not(:last-child) {
+    @media screen and (max-width: 767px){
+        margin-bottom: var(--secondary-retreat);
+    }
+    
 }
 .team-card__person-wrap{
     width: 100%;
-    padding-top: var(--secondary-retreat);
+    background-color: var(--third_color-txt);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+                0px 1px 1px rgba(0, 0, 0, 0.14),
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+     border-radius: 0px 0px 4px 4px;
+    padding: var(--secondary-retreat) 0px 24px 0px;
+    @media screen and (min-width: 1200px){
+        padding: var(--secondary-retreat) 0px;
+    }
 }
 
 .team-card__person-name{
